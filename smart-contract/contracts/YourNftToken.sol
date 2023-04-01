@@ -6,7 +6,7 @@ import 'erc721a/contracts/ERC721A.sol';
 import '@openzeppelin/contracts/access/Ownable.sol';
 import '@openzeppelin/contracts/utils/cryptography/MerkleProof.sol';
 import '@openzeppelin/contracts/security/ReentrancyGuard.sol';
-
+// Custome smart cnotract
 contract YourNftToken is ERC721A, Ownable, ReentrancyGuard {
 
   using Strings for uint256;
